@@ -1,3 +1,7 @@
+# @sebdroid/pure-py
+
+Pure-Py is a Python3 port of the following npm package:
+
 # @ronomon/pure
 
 Pure is a **static analysis file format checker** that checks ZIP files for dangerous compression ratios, spec deviations, malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames, directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow, sparseness, accidental buffer bleeds etc.
