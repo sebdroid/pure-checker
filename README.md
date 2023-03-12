@@ -1,6 +1,6 @@
 # @sebdroid/pure-py
 
-Pure-Py is a Python3 port of the following npm package:
+Pure-Checker is a Python3 port of the following npm package:
 
 # @ronomon/pure
 
