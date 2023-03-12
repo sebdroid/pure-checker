@@ -63,7 +63,6 @@ static struct PyModuleDef pure_py_module = {
     pure_py_methods
 };
 
-PyMODINIT_FUNC
-PyInit_pure_py(void) {
+PyMODINIT_FUNC PyInit_pure_py(void) {
     return PyModule_Create(&pure_py_module);
 }
