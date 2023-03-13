@@ -4,7 +4,6 @@ from setuptools import setup, Extension
 def main():
     setup(
         name="pure-checker",
-        version="1.0.4",
         description="A static analysis file format checker.",
         ext_modules=[Extension("pure_checker", ["pure_checker.c"])],
         include_package_data=True,

@@ -1,4 +1,4 @@
-# @sebdroid/pure-py
+# @sebdroid/pure-checker
 
 Pure-Checker is a Python3 port of the following npm package:
 
