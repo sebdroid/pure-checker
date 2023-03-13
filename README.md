@@ -1,6 +1,7 @@
 # @sebdroid/pure-checker
+[![Build](https://github.com/sebdroid/pure-checker/actions/workflows/build_wheels.yml/badge.svg)](https://github.com/sebdroid/pure-checker/actions/workflows/build_wheels.yml)
 
-Pure-Checker is a Python3 port of the following npm package:
+pure-checker is a Python3 port of the following npm package:
 
 # @ronomon/pure
 
