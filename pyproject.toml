@@ -23,3 +23,6 @@ license = {file = "LICENSE"}
 [tool.cibuildwheel]
 test-requires = "pytest"
 test-command = "pytest {package}/tests"
+
+[tool.cibuildwheel.linux]
+before-all = "yum install -y zlib"
