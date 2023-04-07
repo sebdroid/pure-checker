@@ -23,7 +23,7 @@ license = {file = "LICENSE"}
 
 [tool.cibuildwheel]
 test-requires = "pytest"
-skip = ["cp36-*", "cp37-*", "cp38-*"]
+skip = ["cp36-*", "cp37-*", "cp38-*", "*-musllinux*"]
 test-command = "pytest {package}/tests"
 manylinux-x86_64-image = "manylinux_2_28"
 
