@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pure-checker"  # as it would appear on PyPI
 version = "2.1"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 description = "A static analysis file format checker."
 readme = "README.md"
 authors = [
@@ -29,3 +29,4 @@ manylinux-x86_64-image = "manylinux_2_28"
 
 [tool.cibuildwheel.linux]
 before-all = "yum install -y zlib-devel"
+archs = ["x86_64"]
