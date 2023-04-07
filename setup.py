@@ -5,7 +5,7 @@ def main():
     setup(
         name="pure-checker",
         description="A static analysis file format checker.",
-        ext_modules=[Extension("pure_checker", ["pure_checker.c"], libraries=["z"])],
+        ext_modules=[Extension("pure_checker", ["pure_checker.c"], libraries=["zlib"])],
         include_package_data=True,
         packages=[],
     )
