@@ -1,7 +1,7 @@
 import pure_checker
 
 def test_zip_bomb():
-    with open("tests/zbsm.zip", "rb") as f:
+    with open("zbsm.zip", "rb") as f:
         purity = pure_checker.pure_zip(f.read())
         assert purity == 7
         assert pure_checker.pure_error_code(purity) == "PURE_E_ZIP_BOMB_FIFIELD"
